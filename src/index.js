@@ -46,6 +46,7 @@ function App() {
       <h2>Game status: {gameStatus}</h2>
       <h2>Time: {Math.round((TICK_INTERVAL * upTime) / 1000)}</h2>
       <h2>Points: {points}</h2>
+      <h4>Use "AWSD" from keyboard to play</h4>
       <React.Fragment>
         <GameStatusContext.Provider value={gameStatusContextValues}>
           <GamePointsContext.Provider value={gamePointsContextValues}>
